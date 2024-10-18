@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+
+
+h2 > a {
+    color: rgb(143, 143, 143);
+    text-decoration: none;
+}
+h2 > a:hover {
+    color: rgb(83, 83, 83);
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 4px 0px rgba(117, 117, 117, 0.411);
+}
+
+thead {
+    background-color: rgb(45, 48, 48);
+    color: white;
+}
+
+tbody > tr:nth-child(odd){
+    background: rgb(219, 221, 226);
+}
+
+th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+}
+
+tbody > tr:nth-child(odd):hover, tbody > tr:hover {
+    background-color: rgb(175, 179, 192);
+}
+
+td > a {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+td > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+td > a > button {
+    padding: 3px 10px;
+    border: solid 1px #000000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+td > a > button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: ease-in-out 0.1s;
+}
+
+#table {
+
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px, 0px;
+}
+
+.table_button {
+    width: 10%;
+}
